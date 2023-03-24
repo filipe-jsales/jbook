@@ -31,7 +31,7 @@ export const unpkgPathPlugin = () => {
           return {
             loader: "jsx",
             contents: `
-              const message = require('medium-test-pkg');
+              const message = require('nested-test-pkg');
               console.log(message);
             `,
           };
